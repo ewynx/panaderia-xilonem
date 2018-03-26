@@ -1,6 +1,7 @@
 baseURL = "ewynx.github.io/panaderia-xilonem"
 title = "Panaderia Xilonem"
 DefaultContentLanguage = "es"
+publishDir = "docs"
 
 [languages]
 [languages.en]
