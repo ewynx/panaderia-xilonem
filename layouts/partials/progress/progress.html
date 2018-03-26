@@ -1,0 +1,49 @@
+<section id="progress" class="container-fluid pt-4 pb-4">
+    <h3 class="text-center">{{ i18n "journey" . }}</h3>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <p class="text-center">{{ i18n "journey-intro" . }}</p>
+
+        </div>
+    </div>
+
+    <div class="container pb-4">
+        {{ $list := (where (.Data.Pages.ByParam "order") "Section" "progress") }}
+        <div id="carousel2Indicators" class="carousel slide" data-ride="carousel" data-interval="10000">
+
+            <div class="carousel-inner">
+                {{ range $index, $element := $list }}
+                <div class="carousel-item item {{ if eq $index 0 }}active{{ end }} container">
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-md-10">
+                            <strong>{{ $element.Title }}</strong>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-5">
+                            <img class="d-block img-responsive img-crop ratio-4-to-3 pb-1"
+                                 src="{{ .Site.BaseURL }}/{{ $element.Params.image1 }}"
+                                 alt="{{ $element.Params.alt1 }}">
+                        </div>
+                        <div class="col-md-5">
+                            <img class="d-block img-responsive img-crop ratio-4-to-3 pb-1"
+                                 src="{{ .Site.BaseURL }}/{{ $element.Params.image2 }}"
+                                 alt="{{ $element.Params.alt2 }}">
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+
+            <a class="carousel-control-prev" href="#carousel2Indicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next .d-none .d-sm-block" href="#carousel2Indicators" role="button"
+               data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>

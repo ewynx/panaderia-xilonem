@@ -1,0 +1,16 @@
+{{ define "main"}}
+
+<section>
+
+</section>
+
+{{ partial "bakery/start.html" . }}
+{{ partial "bakery/offer.html" . }}
+<img src="{{ .Site.BaseURL }}/images/donut2.JPG" class="img-responsive img-crop ratio-4-to-3">
+
+{{ partial "xilonem/xilonem.html" . }}
+{{ partial "support/support-us.html" . }}
+{{ partial "progress/progress.html" . }}
+{{ partial "contact/contact.html" . }}
+
+{{ end }}

@@ -1,0 +1,51 @@
+#Navigation
+- id: the-bakery
+  translation: "La Panaderia"
+- id: support-us
+  translation: "Apoyanos"
+- id: journey
+  translation: "Nuestra historia"
+- id: contact
+  translation: "Contacto"
+
+#Our offer
+- id: offerTitle
+  translation: "Cafe & Pan"
+- id: offer
+  translation: "Nuestra oferta puede variar según la temporada, pero estas son las cosas que probablemente tendremos reservadas para usted."
+- id: product
+  translation: "Producto"
+- id: price
+  translation: "Precio (cordoba)"
+- id: coffee
+  translation: "Cafe"
+- id: donut
+  translation: "Dona"
+- id: pico
+  translation: "Pico"
+- id: cookie
+  translation: "Galleta"
+- id: pizza
+  translation: "Pizza"
+
+#Journey
+- id: journey-intro
+  translation: "Estamos trabajando arduamente para que esta panadería sea un éxito. Es un viaje y nos encantaría compartirlo con usted. En facebook se encuentran las últimas actualizaciones! Esta es una impresión de lo que ha estado sucediendo hasta ahora."
+
+#Contact
+- id: email
+  translation: "Correo eléctronico"
+- id: phone
+  translation: "Teléfono"
+- id: address
+  translation: "Dirección"
+- id: address-content1
+  translation: "Barrio Igor Úbeda"
+- id: address-content2
+  translation: "Tienda Gallo más Gallo, 3,5 cuadra al oeste"
+
+#Footer
+- id: website-by
+  translation: "Página web por"
+- id: to-top
+  translation: "Arriba"

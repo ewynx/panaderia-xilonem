@@ -1,0 +1,189 @@
+body {
+    font-family: Quicksand, sans-serif;
+    background-color: #fffbfa
+}
+
+.navbar {
+    background-color: #ff9596
+}
+
+.navbar-brand {
+    font-family: Quicksand, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-link, a {
+    font-family: Quicksand, sans-serif;
+    color: black;
+    font-size: 110%;
+}
+
+a:hover {
+    color: #ff6376;
+}
+
+#footer a:hover {
+    color: crimson;
+}
+
+/* Image sizing*/
+
+.img-crop,
+.img-crop img {
+    width: 100%; /* gotta be responsive these days */
+}
+
+.img-crop {
+    overflow: hidden;
+
+    /* remove white-space for inline-block elements */
+    letter-spacing: -0.31em; /* webkit */
+    *letter-spacing: normal; /* reset IE < 8 */
+    word-spacing: -0.43em; /* IE < 8 && gecko */
+}
+
+.img-crop:before,
+.img-crop img {
+    /* vertically center the image */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-crop:before {
+    /* pseudo element to vertically align image to */
+    content: "";
+
+    /* Magic Number */
+    /* Set this to your desired height(to width) ratio */
+    padding-top: 30%; /* % of original image width */
+}
+
+.img-crop img {
+    /* removes(sorta) image from the flow */
+    padding-left: 100%;
+    margin: -999em -100%;
+}
+
+/* End image sizing*/
+
+#bakery, #progress, #contact {
+    background-color: #fafffd;
+    color: #342e37;
+}
+
+#bakery .carousel-indicators {
+    bottom: -10%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#bakery img, #xilonem img {
+    border-radius: 8px;
+}
+
+table {
+    font-family: Coming Soon;
+}
+
+.table thead th {
+    border-color: #2f4858;
+    font-size: 110%;
+}
+
+.table td, .table th {
+    border-color: #2f4858;
+}
+
+.carousel-indicators li {
+    background-color: #949397;
+}
+
+.carousel-indicators .active {
+    background-color: #ff9596;
+}
+
+.carousel-inner {
+    padding-top: 3%;
+}
+
+.carousel-control-prev {
+    left: -9%;
+}
+
+.carousel-control-next {
+    right: -9%;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/next.png");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../images/prev.png");
+}
+
+/* Only show carousel indicators on tablets and laptops */
+@media (max-width: 600px) {
+    .carousel-control-next, .carousel-control-prev {
+        visibility: hidden;
+    }
+
+    .navbar-brand {
+        font-size: 1.3rem
+    }
+
+    #navbar-facebook {
+        visibility: hidden;
+    }
+
+    #bakery .carousel-indicators {
+        bottom: -8%;
+    }
+}
+
+@media (min-width: 600px) {
+    .carousel-control-next, .carousel-control-prev {
+        visibility: visible;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem
+    }
+
+    #navbar-facebook {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 800px) {
+    #bakery .carousel-indicators {
+        bottom: -13%;
+    }
+}
+
+#offer {
+    background-color: #57e2e5;
+    color: #2f4858;
+}
+
+#offer img {
+    padding: 1%;
+}
+
+.xilonem-website {
+    color: #ff9596;
+}
+
+.xilonem-website:hover {
+    color: #ff6376;
+}
+
+#support-us {
+    background-color: #ffd553;
+    color: #342e37;
+}
+
+footer {
+    background-color: #ff9596
+}

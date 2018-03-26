@@ -1,0 +1,19 @@
+<section id="support-us" class="container-fluid pt-4 pb-4">
+    {{ range where .Data.Pages "Section" "support" }}
+
+    <h3 class="text-center">{{ .Title}}</h3>
+    <div class="row justify-content-center text-center">
+        <div class="col-md-6">
+            <p><strong>{{ .Params.intro }}</strong></p>
+            <p>{{ .Params.par1 }}</p>
+            <p>{{ .Params.par2 }}</p>
+            <p>
+                <img src="{{ .Site.BaseURL }}/images/oven.svg" height=50 class="mr-3">
+                <img src="{{ .Site.BaseURL }}/images/mixer.svg" height=50 class="mr-3">
+                <img src="{{ .Site.BaseURL }}/images/refrigerator.svg" height=50>
+            </p>
+            <p>{{ .Params.par3 }}</p>
+        </div>
+    </div>
+    {{ end }}
+</section>

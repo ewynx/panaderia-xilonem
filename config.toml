@@ -1,0 +1,10 @@
+baseURL = "ewynx.github.io/panaderia-xilonem"
+title = "Panaderia Xilonem"
+DefaultContentLanguage = "es"
+
+[languages]
+[languages.en]
+weight = 2
+
+[languages.es]
+weight = 1

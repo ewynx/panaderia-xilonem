@@ -1,0 +1,42 @@
+<section id="xilonem">
+    {{ range where .Data.Pages "Section" "xilonem" }}
+    <div class="container-fluid mt-4 mb-3">
+        <div class="row justify-content-center">
+            <h2 class="text-center">{{ .Title}}</h2>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-md-9 mr-2 ml-2">
+                <p class="">
+                    {{ .Params.intro }} <a class="xilonem-website" href="https://amexilonem.wordpress.com">{{ .Params.website}}</a>.
+                </p>
+                <p class="pt-2 pb-2"><img class="d-block img-responsive img-crop ratio-4-to-3"
+                                          src="https://amexilonem.files.wordpress.com/2017/11/salmeron.jpg?w=960&h=435&crop=1">
+                </p>
+
+                <h4>{{ .Params.activities}}</h4>
+                <p>{{ .Params.activitiesPar1}}</p>
+                <p>{{ .Params.activitiesPar2}}</p>
+                <p>{{ .Params.activitiesPar3}}</p>
+                <p>{{ .Params.activitiesPar4}}</p>
+                <p>{{ .Params.activitiesPar5}}</p>
+
+                <div class="row pt-3 pb-3">
+                    <div class="col">
+                        <img class="d-block img-responsive img-crop ratio-4-to-3"
+                             src="{{ .Site.BaseURL }}/images/taller.JPG">
+                    </div>
+                    <div class="col">
+                        <img class="d-block img-responsive img-crop ratio-4-to-3"
+                             src="{{ .Site.BaseURL }}/images/taller2.JPG">
+                    </div>
+                </div>
+
+                <h4>{{ .Params.services}}</h4>
+                <p>{{ .Params.servicesPar1}}</p>
+                <p>{{ .Params.servicesPar2}}</p>
+
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</section>

@@ -1,0 +1,51 @@
+#Navigation
+- id: the-bakery
+  translation: "The bakery"
+- id: support-us
+  translation: "Support us"
+- id: journey
+  translation: "Journey"
+- id: contact
+  translation: "Contact"
+
+#Our offer
+- id: offerTitle
+  translation: "Coffee & Bites"
+- id: offer
+  translation: "Our offer may vary depending the season, but these are the goodies we'll probably have in store for you."
+- id: product
+  translation: "Products"
+- id: price
+  translation: "Price (cordoba)"
+- id: coffee
+  translation: "Coffee"
+- id: donut
+  translation: "Donut"
+- id: pico
+  translation: "Pico"
+- id: cookie
+  translation: "Cookie"
+- id: pizza
+  translation: "Pizza slice"
+
+#Journey
+- id: journey-intro
+  translation: "We are working hard to make this bakery a success. It is a journey and we'd love to share it with you. Check out facebook for the latest updates! This is an impression of what has been going on so far."
+
+#Contact
+- id: email
+  translation: "Email"
+- id: phone
+  translation: "Phone"
+- id: address
+  translation: "Address"
+- id: address-content1
+  translation: "Barrio Igor Úbeda"
+- id: address-content2
+  translation: "Tienda Gallo más Gallo, 3,5 cuadra al oeste"
+
+#Footer
+- id: website-by
+  translation: "Website by"
+- id: to-top
+  translation: "To top"
