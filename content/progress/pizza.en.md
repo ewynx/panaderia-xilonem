@@ -3,7 +3,7 @@ title: "Cheesy and tasty pizza! This pizza was made by Nereyda during baking cla
 draft: false
 image1: "images/Nereyda%20baking.jpeg"
 alt1: "Nereyda making pizza"
-image2: "images/pizza.JPG"
+image2: "images/pizza.jpg"
 alt2: "Delicious pizza"
 order : 1
 ---
