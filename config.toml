@@ -1,4 +1,4 @@
-baseURL = "ewynx.github.io/panaderia-xilonem"
+baseURL = "ewynx.github.io/panaderia-xilonem/"
 title = "Panaderia Xilonem"
 DefaultContentLanguage = "es"
 publishDir = "docs"
