@@ -1,7 +1,7 @@
 ---
 title: "Fresco y delicioso"
 draft: false
-image: "images/donuts_coffee2.JPG"
+image: "images/donuts_coffee2.jpg"
 order : 0
 ---
 

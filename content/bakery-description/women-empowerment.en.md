@@ -1,7 +1,7 @@
 ---
 title: "Women empowerment"
 draft: false
-image: "../images/IMG_9835.JPG"
+image: "images/IMG_9835.jpg"
 order : 2
 ---
 

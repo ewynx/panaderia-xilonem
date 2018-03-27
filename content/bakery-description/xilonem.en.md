@@ -1,7 +1,7 @@
 ---
 title: "Supporting Xilonem"
 draft: false
-image: "../images/comunidad.jpg"
+image: "images/comunidad.jpg"
 order : 1
 ---
 
