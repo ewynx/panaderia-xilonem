@@ -1,4 +1,4 @@
-<nav id="home" class="navbar navbar-expand-md">
+<nav id="home" class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="#"><img src="{{ .Site.BaseURL }}/images/donut.svg" height=50
                                           class="nav-item ml-1 mr-3">Panaderia
         Xilonem</a>
@@ -24,20 +24,15 @@
                 <a class="nav-link" href="#contact">{{ i18n "contact" . }}</a>
             </li>
         </ul>
-    </div>
 
-    <div class="mr-4">
-        <div {{ if eq .Language.LanguageName "English" }}hidden{{end}}>
-            <a href="{{ .Site.BaseURL }}/en">English</a>
+        <div id="languageSwitch" class="ml-auto mt-2 mb-2 mr-3">
+            <a {{ if eq .Language.LanguageName "English" }}hidden{{end}} href="{{ .Site.BaseURL }}/en">English</a>
+            <a {{ if eq .Language.LanguageName "Español" }}hidden{{end}} href="{{ .Site.BaseURL }}">Español</a>
         </div>
-        <div {{ if eq .Language.LanguageName "Español" }}hidden{{end}}>
-            <a href="{{ .Site.BaseURL }}">Español</a>
-        </div>
+
+        <a id="navbar-facebook" target="_blank" class="mt-2 mb-2"
+           href="https://www.facebook.com/Asociacion-Xilonem-Esteli-Xilonem-492470051094652/">
+            <img height=40 src="{{ .Site.BaseURL }}/images/facebook.svg" alt="Facebook">
+        </a>
     </div>
-
-    <a id="navbar-facebook" target="_blank" class="mt-2 mb-2"
-       href="https://www.facebook.com/Asociacion-Xilonem-Esteli-Xilonem-492470051094652/">
-        <img height=40 src="{{ .Site.BaseURL }}/images/facebook.svg" alt="Facebook">
-    </a>
-
 </nav>

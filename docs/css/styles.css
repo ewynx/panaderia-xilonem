@@ -16,7 +16,14 @@ body {
 .nav-link, a {
     font-family: Quicksand, sans-serif;
     color: black;
-    font-size: 110%;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../images/menu.svg");
+}
+
+.navbar-toggler:focus {
+    outline: 0 none transparent;
 }
 
 a:hover {
@@ -130,11 +137,7 @@ table {
     }
 
     .navbar-brand {
-        font-size: 1.3rem
-    }
-
-    #navbar-facebook {
-        visibility: hidden;
+        font-size: 1.2rem
     }
 
     #bakery .carousel-indicators {
@@ -148,15 +151,33 @@ table {
     }
 
     .navbar-brand {
-        font-size: 1.5rem
+        font-size: 1.3rem
     }
 
-    #navbar-facebook {
-        visibility: visible;
+    #bakery .carousel-indicators {
+        bottom: -8%;
     }
 }
 
 @media (min-width: 800px) {
+    .carousel-control-next, .carousel-control-prev {
+        visibility: visible;
+    }
+
+    .navbar-brand {
+        font-size: 1.3rem
+    }
+
+    #bakery .carousel-indicators {
+        bottom: -13%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .carousel-control-next, .carousel-control-prev {
+        visibility: visible;
+    }
+
     #bakery .carousel-indicators {
         bottom: -13%;
     }
