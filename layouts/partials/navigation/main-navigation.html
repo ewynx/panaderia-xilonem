@@ -25,10 +25,19 @@
             </li>
         </ul>
     </div>
-    <img height=40 class="mt-2 mb-2 mr-2" onclick="Language = 'en'"
-         src="{{ .Site.BaseURL }}/images/language(1).svg" alt="Facebook">
 
-    <a id="navbar-facebook" target="_blank" class="mt-2 mb-2" href="https://www.facebook.com/Asociacion-Xilonem-Esteli-Xilonem-492470051094652/">
+    <div class="mr-4">
+        <div {{ if eq .Language.LanguageName "English" }}hidden{{end}}>
+            <a href="{{ .Site.BaseURL }}/en">English</a>
+        </div>
+        <div {{ if eq .Language.LanguageName "Español" }}hidden{{end}}>
+            <a href="{{ .Site.BaseURL }}">Español</a>
+        </div>
+    </div>
+
+    <a id="navbar-facebook" target="_blank" class="mt-2 mb-2"
+       href="https://www.facebook.com/Asociacion-Xilonem-Esteli-Xilonem-492470051094652/">
         <img height=40 src="{{ .Site.BaseURL }}/images/facebook.svg" alt="Facebook">
     </a>
+
 </nav>

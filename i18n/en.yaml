@@ -7,6 +7,8 @@
   translation: "Journey"
 - id: contact
   translation: "Contact"
+- id: language
+  translation: "Language"
 
 #Our offer
 - id: offerTitle

@@ -6,6 +6,8 @@ publishDir = "docs"
 [languages]
 [languages.en]
 weight = 2
+languageName = "English"
 
 [languages.es]
 weight = 1
+languageName = "Español"
