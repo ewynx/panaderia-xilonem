@@ -8,7 +8,7 @@
                 <div class="carousel-item item {{ if eq $index 0 }}active{{ end }} container">
                     <div class="row justify-content-center  align-items-center">
                         <div class="col-md-5">
-                            <img class="d-block img-responsive img-crop ratio-4-to-3" src="{{ .Site.BaseURL }}{{$element.Params.image}}"
+                            <img class="d-block img-responsive img-crop ratio-4-to-3" src="{{ $element.Params.image | absURL }}"
                                  alt="First slide">
                         </div>
                         <div class="col-md-7 text-left mt-2">
