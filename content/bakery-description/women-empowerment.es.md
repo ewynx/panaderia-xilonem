@@ -1,7 +1,7 @@
 ---
 title: "Empoderamiento de las mujeres"
 draft: false
-image: "images/IMG_9835.jpg"
+image: "images/IMG_9835.JPG"
 order : 2
 ---
 
